@@ -1,0 +1,62 @@
+# Node modules (both client and server)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+server/.env
+client/.env
+
+# Build directories (both client and server)
+client/build/
+client/dist/
+server/build/
+server/dist/
+
+# Public/uploads (if you store images or other uploads)
+server/uploads/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore lock files (if needed)
+package-lock.json
+yarn.lock
+
+# Ignore static files (depending on your build config)
+client/public/static/
+
+# Ignore any temporary or generated files
+tmp/
+temp/
+*.tmp
+
+# Ignore test coverage
+client/coverage/
+server/coverage/
+
+
+# Ignore all image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.bmp

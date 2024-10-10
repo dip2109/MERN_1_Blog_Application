@@ -3,8 +3,8 @@
 Welcome to the Blogify project repository! Blogify is a feature-rich web application designed to streamline the process of blogging, enabling users to create, edit, and share their thoughts seamlessly. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), Blogify offers a modern, user-friendly interface alongside a powerful backend to deliver a smooth and engaging blogging experience. Users can register, log in, and manage their own posts, as well as explore blogs by categories or authors. With functionalities like profile picture updates, password changes, and real-time content management, Blogify is the go-to platform for anyone passionate about sharing ideas and engaging with content. Join us and start blogging today!
 
 ### Project Structure
-```
 - **Frontend:**
+```
 client/
 ├── public/
 ├── src/
@@ -14,9 +14,11 @@ client/
 │   ├── data.js         
 │   ├── index.js
 ├── .env                   
+```
 
 
 **Backend:**
+```
 server/
 ├── controllers/
 │   ├── postController.js  
